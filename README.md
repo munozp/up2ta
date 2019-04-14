@@ -1,4 +1,4 @@
-# up2ta
+# Unified Path Planning &amp; Task Planning Architecture (UP2TA)
 Unified Path Planning &amp; Task Planning Architecture (UP2TA) is an AI planner that interleaves path planning and task planning for mobile robotics applications. The planner integrates a modified PDDL planner with a path planning algorithm, combining domain-independent heuristics and a domain-specific heuristic for path planning. Then, UP2TA can generate shorter paths while performing hierarchical tasks in an efficient ordered way. 
 
 # Resources
