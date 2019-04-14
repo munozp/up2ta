@@ -18,13 +18,11 @@ Both components are integrated using pipes to share information (see the article
 
 To create the executable, use the makefile and create the Java executable in the way you prefer (you can use the NetBeans project). For testing, you can use the files located in the pddl folder.  The path planning algorithms requires at least a DEM file or a travesal cost file (or both).
 
-To execute the path planner, you must deploy a shell script: /usr/share/pathplanning.sh with the following instruction:
-
-```java -jar  PathPlanning.jar $1 $2 $3```
+To execute the path planner, you must deploy the bin/pathplanning.sh shell script in /usr/share/.
 
 The pipes will be created in /tmp/. 
 
-Previous requirements can be modified in the FF main.c file and ff.h for the PDDL planner and in the TaskPlannerConnect.java for the path planner.
+Previous requirements can be modified in the FF main.c file and inc/Busqueda/proyecto.h for the PDDL planner and in the TaskPlannerConnect.java for the path planner.
 
 To execute the system use the following command:
 
@@ -36,3 +34,8 @@ Path planning can be (note the dot):
 - .t > Theta*
 - .s > S-Theta*
 Other path planners are implemented and can be implemented in the TaskPlannerConnect.java.
+
+
+# Acknowledgemnts
+
+Part of the implementation is done by Hector Franco for his degree dissertation in computer science.
