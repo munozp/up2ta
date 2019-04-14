@@ -36,6 +36,6 @@ Path planning can be (note the dot):
 Other path planners are implemented and can be implemented in the TaskPlannerConnect.java.
 
 
-# Acknowledgemnts
+# Acknowledgements
 
 Part of the implementation is done by Hector Franco for his degree dissertation in computer science.
